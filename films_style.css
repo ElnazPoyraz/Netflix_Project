@@ -1,0 +1,199 @@
+/*FONTS GOOGLE*/
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;400;500;600&family=Quicksand:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gothic A1', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+    
+}
+.nav_list i{
+    display: none;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav_profil{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav_list img{
+    padding-left: 20px;
+}
+
+.nav_list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.nav_list ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: grey;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav_profil .dropdown ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 40px;
+}
+.nav_profil img{
+    padding: 15px;
+    padding-right: 0;
+}
+
+nav .nav_profil .dropdown button{
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.first_pic{
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("arkaplan.jpg");
+    background-size: cover;
+    position: relative;
+    padding-top: 200px;
+    z-index: 1;
+}
+
+.first_pic .text{
+    width: 50%;
+    height: 50%;
+    /*margin-top: 150px;*/
+    margin-left: 25%;
+    text-align: center;
+    color: white;
+    background: none;
+}
+
+.first_pic .text h1{
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 80px;
+    
+}
+
+.first_pic .text h4{
+    font-size: 20px;
+}
+
+.first_pic .text h6{
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.first_pic button{
+    height: 45px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: grey;
+    color: white;
+    margin-top: 20px;
+}
+
+.second_column{
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+    padding: 40px;   
+}
+
+.second_column h6{
+    font-size: 20px;
+    color: white;
+}
+
+.films{
+    width: 60%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.films img{
+    height: 110px;
+    margin-right: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: grey;
+    padding: 50px;
+    
+}
+footer #title1{
+    padding-bottom: 20px;
+    margin-left: 130px;
+    
+}
+
+.footer_list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px 0 100px;
+
+}
+
+footer ul li{
+    list-style: none;
+    line-height: 40px;
+    
+}
+footer ul li a{
+    text-decoration: none;
+    color: grey;
+    
+}
+.footer_lan{
+    margin-left: 150px;
+    display: flex;
+    padding-bottom: 50px;
+}
+.footer_lan a{
+    color: white;
+    margin-top: 7px;
+}
+.footer_lan .dropdown button{
+    background: none;
+    border: none;
+}
+.footer_lan .dropdown ul li a{
+    color: rgb(53, 52, 52);
+}
+
+footer #title2{
+    position: relative;
+    bottom: 10px;
+    margin-left: 130px;
+    
+}

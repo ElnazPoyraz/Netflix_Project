@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/a317844617.js" crossorigin="anonymous"></script>
+    
+    <!--css-->
+    <link rel="stylesheet" href="login_response.css">
+
+    <style>
+        .first_column{
+            width: 100%;
+            height: 1120px;
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("arkaplan.jpg");
+            padding-top: 20px;
+            /*background-size: 150% 170%;*/
+            background-position-x: center;
+            background-repeat: no-repeat;
+            position: relative;
+            margin-bottom: 0;
+        }
+        .first_column .logo{
+            margin-left: 100px;
+            height: 80px;
+        }
+        .form{
+            width: 40%;
+            height: 45%;
+            background: rgba(10, 10, 10, 0.7);
+            backdrop-filter: blur(2px);
+            /*backdrop-filter: brightness(30%);*/
+            /*backdrop-filter: blur(2px);*/
+            margin-left: 28%;
+            text-align: left;
+            color: white; 
+        }
+        .form h1{
+            margin-left: 70px;
+            padding-top: 40px;
+            margin-bottom: 0;
+        }
+        .form .input{
+            margin-left: 70px;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            width: 70%;
+            height: 50px;
+            border-radius: 5px;
+            border: none;
+            background-color: grey;
+            color: white;
+            font-size: 17px;
+            color: grey;
+        }
+        .form .input::placeholder{
+            color: white;
+        }
+        .form #checkbox{
+            margin-left: 70px;
+            width: 17px;
+            height: 17px;
+            margin-top: 5px;
+        }
+        .form #button{
+            margin-left: 70px;
+            width: 70%;
+            height: 50px;
+            border-radius: 5px;
+            border: none;
+            font-size: 18px;
+            color: white;
+            background-color: rgb(245, 69, 69);
+        }  
+        .form .text1{
+            margin-top: 0;
+            margin-left: 80px;
+            color: grey;
+        }
+       .form .text2{
+            padding-top: 10px;
+            color: grey;
+            text-align: center;
+        }              
+        footer{
+            width: 100%;
+            height: 400px;
+            background-color: black;
+            color: grey;
+            padding: 50px;
+            background: rgba(10, 10, 10, 0.7);
+            backdrop-filter: blur(2px);
+            margin-top: 65px;
+            position: absolute;
+            bottom: 0;
+        }
+        footer #title1{
+            padding-bottom: 20px;
+            margin-left: 130px;          
+        }
+        .footer_list{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 200px 0 100px;
+        }
+        footer ul li{
+            list-style: none;
+            line-height: 40px;            
+        }
+        footer ul li a{
+            text-decoration: none;
+            color: grey;            
+        }
+        .footer_lan{
+            margin-left: 150px;
+            display: flex;
+            padding-bottom: 50px;
+        }
+        .footer_lan a{
+            color: white;
+            margin-top: 7px;
+        }
+        .footer_lan .dropdown button{
+            background: none;
+            border: none;
+        }
+        .footer_lan .dropdown ul li a{
+            color: rgb(53, 52, 52);
+        }
+        footer #title2{
+            position: absolute;
+            bottom: 10px;
+            margin-left: 130px;            
+        }
+    
+    </style>
+
+</head>
+<body>
+    
+    <div class="first_column">
+        
+        <div class="logo">
+            <img src="netflix_logo.png" alt="logo">
+        </div>
+
+        <div class="form">
+            <h1>Oturum Aç</h1>
+            <input class="input" type="text" placeholder="E-posta veya telefon numarası"><br><br>
+            <input class="input" type="password"><br>
+            <button id="button" >Oturum Aç</button><br>
+            <input id="checkbox" type="checkbox"> Beni Hatırla
+            <p class="text1">Netflix'e katılmak ister misiniz? Şimdi kaydolun.</p>
+            <p class="text2">Bu sayfa robot olmadığınızı kanıtlamak için Google <br> reCAPTCHA tarafından korunuyor. Daha fazlasını <br> öğrenin.</p>
+        </div>
+
+        <!--footer baslangic-->
+
+        <footer>
+            <p id="title1">Sorularınız mı var? 0500 000 00 00 numaralı telefonu arayın</p>
+            <div class="footer_list">
+                <div class="footer_column">
+                    <ul>
+                        <li><a href="">SSS</a></li>
+                        <li><a href="">Yatırımcı İlişkileri</a></li>
+                        <li><a href="">Kullanım Koşulları</a></li>
+                        <li><a href="">Bize Ulaşın</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <ul>
+                        <li><a href="">Yardım Merkezi</a></li>
+                        <li><a href="">İş İmkanları</a></li>
+                        <li><a href="">Gizlilik</a></li>
+                        <li><a href="">Hız Testi</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <ul>
+                        <li><a href="">Hesap</a></li>
+                        <li><a href="">Hediye Kartı Kullan</a></li>
+                        <li><a href="">Çerez Tercihleri</a></li>
+                        <li><a href="">Yasal Hükümler</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <ul>
+                        <li><a href="">Media Merkezi</a></li>
+                        <li><a href="">İzleme Yolları</a></li>
+                        <li><a href="">Kurumsal Bilgiler</a></li>
+                        <li><a href="">Sadece Netflix'te</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer_lan">
+                <a href=""><i class="fa-solid fa-globe"></i></a>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Türkçe
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">German</a></li>
+                        <li><a class="dropdown-item" href="#">Farsi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p id="title2">Netflix Türkiye (COSMIOS)</p>
+        </footer>
+        
+    </div>
+
+
+
+
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
